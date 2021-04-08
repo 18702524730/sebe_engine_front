@@ -1,0 +1,129 @@
+{
+	"phone": "18258135465",
+	"work_order_id": 78,
+	"confirm_step": 3,
+	"member_truename": "洪 凯",
+	"member_id": 1,
+	"service_order_list": [
+		{
+			"seq": "01",
+			"id": 192,
+			"order_sn": "001171026100030",
+			"member_truename": "洪 凯",
+			"bs_feedback_name": "已接单待提交"
+		},
+		{
+			"seq": "02",
+			"id": 193,
+			"order_sn": "001171026100031",
+			"member_truename": "洪 凯",
+			"bs_feedback_name": "已接单待提交"
+		},
+		{
+			"seq": "03",
+			"id": 194,
+			"order_sn": "001171026100032",
+			"member_truename": "洪 凯",
+			"bs_feedback_name": "已接单待提交"
+		}
+	],
+	"trademark_subject": {
+		"apply_type": 2,
+		"apply_name": "测试大陆企业111",
+		"name_en": "",
+		"apply_number": "182581354654567891",
+		"apply_phone": "0563-11111111",
+		"province_id": 5,
+		"city_id": 100,
+		"area_id": 1464,
+		"area_info": "内蒙古自治区 鄂尔多斯市 鄂东胜区",
+		"address": "测试",
+		"zip_code": "111111",
+		"standby1": "http://sebe360test.oss-cn-beijing.aliyuncs.com/AF1BCBE01F4B3B58485223356BF4E5CF.pdf",
+		"standby1_name": null,
+		"standby2": null,
+		"standby2_name": null
+	},
+	"work_order_invoice": {
+		"invoice_type": 1,
+		"regist_phone": "",
+		"province_id": 1,
+		"city_id": 36,
+		"area_id": 37,
+		"area_info": "北京 北京市 东城区",
+		"address": "",
+		"account_bank": "",
+		"account_number": "",
+		"invoice_title": "测试大陆企业111",
+		"invoice_code": "11111111111111111111"
+	},
+	"trademark": {
+		"trademark_name": null,
+		"trademark_desc": null,
+		"pic_type": 1,
+		"proxy_url": null,
+		"proxy_file_name": null,
+		"specify_pic_url": null,
+		"specify_pic_file_name": null,
+		"black_white_pic_url": null,
+		"black_white_pic_file_name": null,
+		"entrusted_unit": "杭州拾贝知识产权服务有限公司"
+	},
+	"work_order_service": [
+		{
+			"id": 192,
+			"order_sn": "001171026100030",
+			"similar_trademark": null,
+			"register_pass_rate": null,
+			"risk_desc_register_advice": null,
+			"addition_fee": 0,
+			"min_number": 3,
+			"class_name": "08手工用具",
+			"class_id": 8,
+			"service_nice_min": [
+				{
+					"min_id": 4177,
+					"group_id": 126,
+					"class_id": 8,
+					"min_name": "磨刀器具 080093"
+				},
+				{
+					"min_id": 4183,
+					"group_id": 126,
+					"class_id": 8,
+					"min_name": "手动磨利器具 0801"
+				},
+				{
+					"min_id": 4185,
+					"group_id": 127,
+					"class_id": 8,
+					"min_name": "鹤嘴镐 080044"
+				}
+			]
+		},
+		{
+			"id": 193,
+			"order_sn": "001171026100031",
+			"similar_trademark": null,
+			"register_pass_rate": null,
+			"risk_desc_register_advice": null,
+			"addition_fee": 0,
+			"min_number": 0,
+			"class_name": null,
+			"class_id": null,
+			"service_nice_min": []
+		},
+		{
+			"id": 194,
+			"order_sn": "001171026100032",
+			"similar_trademark": null,
+			"register_pass_rate": null,
+			"risk_desc_register_advice": null,
+			"addition_fee": 0,
+			"min_number": 0,
+			"class_name": null,
+			"class_id": null,
+			"service_nice_min": []
+		}
+	]
+}

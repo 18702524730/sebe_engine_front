@@ -1,0 +1,132 @@
+/*-- 下面的css后面会移到common.js中  --*/
+.fll, .fl{
+    float: left;
+}
+.flr, .fr{
+    float: right;
+}
+.clearfix:after{
+    display:block;
+    content:'';
+    clear:both;
+}
+.ml-5,.ml5{margin-left: 5px;}
+.ml-10,.ml10{margin-left: 10px;}
+.ml-15,.ml15{margin-left: 15px;}
+.ml-20,.ml20{margin-left: 20px;}
+.ml-25,.ml25{margin-left: 25px;}
+.ml-30,.ml30{margin-left: 30px;}
+.ml-35,.ml35{margin-left: 35px;}
+.ml-40,.ml40{margin-left: 40px;}
+.ml-50,.ml50{margin-left: 50px;}
+
+.mt-5,.mt5{margin-top: 5px;}
+.mt-10,.mt10{margin-top: 10px;}
+.mt-15,.mt15{margin-top: 15px;}
+.mt-20,.mt20{margin-top: 20px;}
+.mt-25,.mt25{margin-top: 25px;}
+.mt-30,.mt30{margin-top: 30px;}
+.mt-35,.mt35{margin-top: 35px;}
+.mt-40,.mt40{margin-top: 40px;}
+.mt-50,.mt50{margin-top: 50px;}
+
+.mr-5,.mr5{margin-right: 5px;}
+.mr-10,.mr10{margin-right: 10px;}
+.mr-15,.mr15{margin-right: 15px;}
+.mr-20,.mr20{margin-right: 20px;}
+.mr-25,.mr25{margin-right: 25px;}
+.mr-30,.mr30{margin-right: 30px;}
+.mr-35,.mr35{margin-right: 35px;}
+.mr-40,.mr40{margin-right: 40px;}
+.mr-50,.mr50{margin-right: 50px;}
+
+.mb-5,.mb5{margin-bottom: 5px;}
+.mb-10,.mb10{margin-bottom: 10px;}
+.mb-15,.mb15{margin-bottom: 15px;}
+.mb-20,.mb20{margin-bottom: 20px;}
+.mb-25,.mb25{margin-bottom: 25px;}
+.mb-30,.mb30{margin-bottom: 30px;}
+.mb-35,.mb35{margin-bottom: 35px;}
+.mb-40,.mb40{margin-bottom: 40px;}
+.mb-50,.mb50{margin-bottom: 50px;}
+
+.hidden{display: none;}
+
+.commonWidth{ width: 1200px;margin-left: auto;margin-right: auto;position: relative; padding: 0 15px;}
+html,body{width: 100%;height: 100%;}
+
+.btn{width:120px;height: 34px;line-height: 1;border: 1px solid #fff;border-radius: 3px; color: #fff; font-size: 14px;}
+.btn-primary{background-color: #20a0ff;border-color:#20a0ff;}
+.btn-primary:hover{background-color: #20a0ff;border-color:#20a0ff;}
+.btn-disabled{background-color: #ccc;border-color:#ccc;cursor: not-allowed; color: #eee;}
+
+/* #app .el-button--primary:focus, #app .el-button--primary:hover{background-color: #259ce7;border-color:#259ce7;} */
+
+/* 下拉框和选择框 */
+.el-input	.el-input__inner{height:30px;border-radius:2px;font-size: 13px;vertical-align: top;border: 1px solid #DFE2E5;line-height: 24px;color: #567;}
+/* .el-select .el-input__inner:focus{border-color: #479CFF!important;}
+.el-select:hover .el-input__inner,.el-input__inner:hover{border-color: #479CFF!important;} */
+.el-select-dropdown__list{padding:3px 0!important;}
+.el-select-dropdown__list .el-select-dropdown__item{padding:5px 10px;font-size: 13px;height: 30px;line-height:20px;}
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover,.el-select-dropdown__list .el-select-dropdown__item.hover, .el-select-dropdown__item:hover{background-color: #F5F5F5;}
+.el-select-dropdown,.el-picker-panel{margin: 2px 0!important;}
+.el-textarea .el-textarea__inner{border: 1px solid #DFE2E5;resize: none;overflow-y: auto;}
+.el-textarea .el-textarea__inner:hover{border-color: #479CFF!important;}
+.el-form-item.is-error .el-input__inner, .el-form-item.is-error .el-textarea__inner{border-color:#F64744!important;}
+.el-form-item__error{color:#F64744!important;}
+.el-input.is-disabled .el-input__inner {background-color: #f5f5f5!important;border-color: #DFE2E5!important;color: #A8AFB5!important;}
+.el-select .el-input .el-input__icon{color:#666!important;}
+
+.el-checkbox__inner{width: 16px!important;height: 16px!important;border-radius:3px!important;}
+.el-checkbox__inner::after{top:1px!important;left:4px!important;width: 3px!important;height: 7px!important;}
+
+/* 弹出对话框 */
+.el-dialog{-ms-transform: translateX(-50%) !important;}
+.el-dialog .el-dialog__title{font-size: 14px;color: #223344;font-weight: normal;}
+.el-dialog .el-dialog__headerbtn{font-size: 12px;line-height: 12px;}
+.el-dialog .el-dialog__body{padding-top: 10px;padding-bottom: 20px;}
+.el-dialog .el-dialog__body a.button{display: inline-block;width: 88px;height: 30px;line-height: 30px;text-align: center;background-color: #479CFF;color: #fff;font-size: 14px;border:1px solid #479CFF;border-radius: 2px;cursor: pointer;}
+.el-dialog .el-dialog__body a.button:hover{text-decoration:none;background-color: #387CCC;border-color: #387CCC}
+.el-dialog .el-dialog__body a.no{color: #479CFF; background-color: #fff;margin-right: 10px;}
+.el-dialog .el-dialog__body a.no:hover{background-color: #fff;color: #387CCC;}
+ .el-time-panel .el-time-panel__content::after, .el-time-panel .el-time-panel__content::before{
+    margin-top: -7px;
+  }
+.el-message__group p{color:#567!important;}
+/*ie9下伪类兼容*/
+.el-checkbox__input.is-checked .el-checkbox__inner::after{-ms-transform: rotate(45deg) scaleY(1) !important;}
+
+.el-radio__inner{height: 16px!important;width: 16px!important;}
+
+.clearfix {
+	zoom: 1;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+input{
+    outline: none;
+    border:none;
+    background: none;
+}
+.graybg{
+    padding: 15px 0;
+    background-color: #f5f5f5;
+}
+.paginationbox{
+    text-align: right;
+}
+.paginationbox .el-pagination button:disabled{
+    background-color: transparent;
+}
+.paginationbox .el-pagination button{
+    background-color: transparent;
+}
+.paginationbox .el-pagination .el-pager li{
+    background-color: transparent;
+}
+.paginationbox .el-pagination__editor{
+    top: -5px;
+}
